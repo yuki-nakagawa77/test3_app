@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 
   def index
-    @post = "@postのテスト文章"
+    @post = Post.find(1)
   end
 
 end
